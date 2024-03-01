@@ -23,9 +23,12 @@ jobs:
     - name: Login to Wally
       run: |
           mkdir ~/.wally
-          printenv WALLY_AUTH > ~/.wally/auth.toml
+          wally_1=$'[tokens]\n"https://api.wally.run/" = "'
+          wally_2=$'"'
+          echo "$wally_1$WALLY_AUTH$wally_2" > ~/.wally/auth.toml
+          cat ~/.wally/auth.toml
       env:
-        WALLY_AUTH: ${{ secrets.WALLY_AUTH }}
+        WALLY_AUTH: ${{ secrets.WALLY_AUTH_TOKEN }}
 
     - name: Publish to Wally
       run: wally publish
