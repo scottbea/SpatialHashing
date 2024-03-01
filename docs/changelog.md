@@ -1,14 +1,3 @@
-## [0.5.5] - March 1 2024
-### Added
-Functioning README.md
-
-### Changed
-Updated to version 0.5.4
-
-### Fixed
-Trying to fix Wally publishing
-
-
 ## [0.5.0] - Feburary 29 2024
 ### Added
 - Feature 1! (see methods below)
