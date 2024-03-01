@@ -1,22 +1,30 @@
-## [0.5.5] - March 1 2024
+## [0.5.6] - 2024-03-01
 ### Added
-None
+- None
 
 ### Changed
-None
+- None
+
+### Fixed
+- Fixes to the `changelog.md`` and the CICD pipeline
+
+
+
+## [0.5.5] - 2024-03-01
+### Added
+- None
+
+### Changed
+- None
 
 ### Fixed
 - Fixes to Wally publishing
 - Fixes to Docs publishing
 
-----------
 
 
 ## [0.5.0] - Feburary 29 2024
 ### Added
-- Feature 1! (see methods below)
-- Feature 2
-- Feature 3
 - **Methods**
     - ``new()``
     - ``PositionToSpace(position: Vector3): string``
@@ -25,22 +33,14 @@ None
     - ``SpaceToRegion3(space: string): Region3?``
     - ``GetChildSpaces(space: string): {string}``
     - ``GetParentSpaces(space: string, levels: number?): {string}``
-- **Events**
-
 
 ### Changed
-None
+- None
 
 ### Fixed
-None
+- None
 
 
-```
--- This constructs a spatial hash based upon the world position (Vector3) given
--- Code here
-```
-
-```
--- This does something else interesting
--- Code here
-```
+[0.5.6]: https://github.com/scottbea/SpatialHashing/compare/v0.5.6...v0.5.5
+[0.5.5]: https://github.com/scottbea/SpatialHashing/releases/tag/v0.5.5
+[0.5.0]: https://github.com/scottbea/SpatialHashing/releases/tag/v0.5.0
