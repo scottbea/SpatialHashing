@@ -29,7 +29,6 @@ jobs:
           PRE_RELEASE: "false"
           CHANGELOG_FILE: "docs/changelog.md"
           ALLOW_EMPTY_CHANGELOG: "true"
-          ALLOW_TAG_PREFIX: "true"
           UNRELEASED: "update"
         with:
           args: |
