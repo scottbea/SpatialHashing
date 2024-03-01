@@ -1,4 +1,4 @@
-## [0.5.4] - March 1 2024
+## [0.5.5] - March 1 2024
 ### Added
 Functioning README.md
 
@@ -6,7 +6,7 @@ Functioning README.md
 Updated to version 0.5.4
 
 ### Fixed
-None
+Trying to fix Wally publishing
 
 
 ## [0.5.0] - Feburary 29 2024
