@@ -1,3 +1,39 @@
+## [0.5.3] - March 1 2024
+### Added
+None
+
+### Changed
+Updated to version 0.5.3
+
+### Fixed
+None
+
+
+
+## [0.5.2] - March 1 2024
+### Added
+None
+
+### Changed
+Updated to version 0.5.2
+
+### Fixed
+None
+
+
+
+## [0.5.1] - March 1 2024
+### Added
+None
+
+### Changed
+Updated to version 0.5.1
+
+### Fixed
+None
+
+
+
 ## [0.5.0] - Feburary 29 2024
 ### Added
 - Feature 1! (see methods below)
