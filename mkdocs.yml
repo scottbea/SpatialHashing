@@ -46,8 +46,6 @@ extra:
       link: https://github.com/scottbea/
     - icon: fontawesome/brands/twitter
       link: https://twitter.com/scottbea
-    - icon: fontawesome/brands/youtube
-      link: https://www.youtube.com/channel/UCj9QhyYCvhAwiBHA5B88pYg
 
 markdown_extensions:
   - admonition
