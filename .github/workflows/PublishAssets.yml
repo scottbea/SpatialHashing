@@ -23,10 +23,10 @@ jobs:
     - name: Login to Wally
       run: |
         mkdir ~/.wally
-        echo $'["tokens"]\n"https://api.wally.run/" = ' "\"$WALLY_AUTH\"" > ~/.wally/auth.toml
+        printenv WALLY_AUTH > ~/.wally/auth.toml
         cat ~/.wally/auth.toml
       env:
-        WALLY_AUTH: ${{ vars.WALLY_AUTH }}
+        WALLY_AUTH: ${{ vars.WALLY_CONFIG }}
 
     - name: Publish to Wally
       run: wally publish --verbose
