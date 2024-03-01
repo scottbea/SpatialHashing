@@ -23,7 +23,7 @@ jobs:
     - name: Login to Wally
       run: |
         mkdir ~/.wally
-        echo "$(printenv WALLY_AUTH | base64 --decode)" > ~/.wally/auth.toml
+        echo "$(echo $WALLY_AUTH)" | base64 --decode > ~/.wally/auth.toml
         cat ~/.wally/auth.toml
       env:
         WALLY_AUTH: ${{ vars.WALLY_CONFIG }}
