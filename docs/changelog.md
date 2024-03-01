@@ -1,3 +1,17 @@
+## [0.5.5] - March 1 2024
+### Added
+None
+
+### Changed
+None
+
+### Fixed
+- Fixes to Wally publishing
+- Fixes to Docs publishing
+
+----------
+
+
 ## [0.5.0] - Feburary 29 2024
 ### Added
 - Feature 1! (see methods below)
