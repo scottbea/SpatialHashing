@@ -1,3 +1,15 @@
+## [0.5.7] - 2024-03-01
+### Added
+- None
+
+### Changed
+- None
+
+### Fixed
+- Creating fork of wally index to resolve security
+
+
+
 ## [0.5.6] - 2024-03-01
 ### Added
 - None
@@ -41,6 +53,7 @@
 - None
 
 
-[0.5.6]: https://github.com/scottbea/SpatialHashing/compare/v0.5.6...v0.5.5
+[0.5.7]: https://github.com/scottbea/SpatialHashing/compare/v0.5.7...v0.5.6
+[0.5.6]: https://github.com/scottbea/SpatialHashing/releases/tag/v0.5.6
 [0.5.5]: https://github.com/scottbea/SpatialHashing/releases/tag/v0.5.5
 [0.5.0]: https://github.com/scottbea/SpatialHashing/releases/tag/v0.5.0
