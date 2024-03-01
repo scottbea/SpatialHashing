@@ -22,10 +22,10 @@ jobs:
 
     - name: Login to Wally
       run: |
-          wally login --token "$WALLY_AUTH_TOKEN"
-          cat ~/.wally/auth.toml
+          echo ${{ secrets.WALLY_AUTH }}
+          wally login --token "${{ secrets.WALLY_AUTH }}"
       env:
-        WALLY_AUTH: ${{ secrets.WALLY_AUTH_TOKEN }}      
+        WALLY_AUTH: ${{ secrets.WALLY_AUTH }}     
 
     - name: Publish to Wally
       run: wally publish --verbose
