@@ -10,7 +10,7 @@ Roblox LUA library for mapping world positions to spaces (spatial hashes) and vi
 
 
 ## License
-Copyright 2024 by Scott Beaudreau
+Copyright 2024 by Scott Beaudreau and LUA Master Developers
 
 
 ## Badges
