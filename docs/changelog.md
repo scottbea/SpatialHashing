@@ -1,37 +1,12 @@
-## [0.5.3] - March 1 2024
+## [0.5.4] - March 1 2024
 ### Added
-None
+Functioning README.md
 
 ### Changed
-Updated to version 0.5.3
+Updated to version 0.5.4
 
 ### Fixed
 None
-
-
-
-## [0.5.2] - March 1 2024
-### Added
-None
-
-### Changed
-Updated to version 0.5.2
-
-### Fixed
-None
-
-
-
-## [0.5.1] - March 1 2024
-### Added
-None
-
-### Changed
-Updated to version 0.5.1
-
-### Fixed
-None
-
 
 
 ## [0.5.0] - Feburary 29 2024
