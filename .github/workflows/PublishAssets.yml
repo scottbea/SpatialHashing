@@ -22,13 +22,10 @@ jobs:
 
     - name: Login to Wally
       run: |
-          mkdir ~/.wally
-          wally_1=$'[tokens]\n"https://api.wally.run/" = "'
-          wally_2=$'"'
-          echo "$wally_1$WALLY_AUTH$wally_2" > ~/.wally/auth.toml
+          wally login --token "$WALLY_AUTH_TOKEN"
           cat ~/.wally/auth.toml
       env:
-        WALLY_AUTH: ${{ secrets.WALLY_AUTH_TOKEN }}
+        WALLY_AUTH: ${{ secrets.WALLY_AUTH_TOKEN }}      
 
     - name: Publish to Wally
-      run: wally publish
+      run: wally publish --verbose
