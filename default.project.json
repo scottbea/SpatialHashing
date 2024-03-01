@@ -1,0 +1,14 @@
+{
+  "name": "SpatialHashing",
+  "tree": {
+    "$className": "DataModel",
+
+    "ReplicatedStorage": {
+      "$className": "ReplicatedStorage",
+
+      "SpatialHashing": {
+        "$path": "src/SpatialHashing"
+      }
+    }
+  }
+}

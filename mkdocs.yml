@@ -1,0 +1,69 @@
+
+site_name: SpatialHashing
+site_description: Documentation for SpatialHash, a Lua library for 3D spatial hashing.
+site_author: Scott Beaudreau
+site_url: https://scottbea.github.io/SpatialHashing/
+
+repo_name: scottbea/SpatialHashing
+repo_url: https://github.com/scottbea/SpatialHashing
+edit_uri: ""
+
+theme:
+  logo: https://user-images.githubusercontent.com/51117782/104590568-71724f80-5663-11eb-9bc1-344fc2a4193c.png
+  favicon: https://user-images.githubusercontent.com/51117782/113474423-cefa8900-9467-11eb-8678-d69cbb0b3966.png
+  name: material
+  features:
+    - navigation.tabs
+    #- navigation.instant
+    #- navigation.sections
+  palette:
+    # Light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: purple
+      accent: blue
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+    # Dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: purple
+      accent: blue
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+  highlightjs: true
+  hljs_languages:
+    - lua
+
+extra_javascript:
+  - javascripts/tags.js
+
+extra:
+  social:
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/scottbea/
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/scottbea
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/channel/UCj9QhyYCvhAwiBHA5B88pYg
+
+markdown_extensions:
+  - admonition
+  - codehilite:
+      guess_lang: false
+  - toc:
+      permalink: true
+  - pymdownx.superfences
+
+nav:
+  - Home:
+    - Introduction: index.md
+    - Installation: installation.md
+    - Method: method.md
+    - API:
+      - SpatialHashing: api/spatialhashing.md
+    - Resources: resources.md
+  - Contributing: contributing.md
+  - Changelog: changelog.md
